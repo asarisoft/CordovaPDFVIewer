@@ -1,0 +1,48 @@
+{
+  "_from": "git+https://github.com/m-plus/cordova-pdf-viewer.git",
+  "_id": "CordovaPdfViewer@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-t2lf/bi/oiJAaoyakmagN2vdi4g=",
+  "_location": "/CordovaPdfViewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/m-plus/cordova-pdf-viewer.git",
+    "rawSpec": "https://github.com/m-plus/cordova-pdf-viewer.git",
+    "saveSpec": "git+https://github.com/m-plus/cordova-pdf-viewer.git",
+    "fetchSpec": "https://github.com/m-plus/cordova-pdf-viewer.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/m-plus/cordova-pdf-viewer.git#c309dededff2d02dfa9b6079f47a62616591ca5c",
+  "_spec": "https://github.com/m-plus/cordova-pdf-viewer.git",
+  "_where": "/Users/imam/tab-cordova",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/m-plus/cordova-pdf-viewer/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "software.mplus.cordova-pdf-viewer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/m-plus/cordova-pdf-viewer#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "name": "CordovaPdfViewer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-plus/cordova-pdf-viewer.git"
+  },
+  "version": "0.1.0"
+}
