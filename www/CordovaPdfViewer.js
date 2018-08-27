@@ -23,7 +23,7 @@ function onOrientationChange(e) {
         console.log('onOrientationChange error');
     };
 
-    exec(success, error, "CordovaPdfViewer", "redim", [rect.top+100, rect.left, rect.width, rect.height]);
+    exec(success, error, "CordovaPdfViewer", "redim", [rect.top+20, rect.left, rect.width, rect.height]);
 }
 
 
@@ -63,7 +63,7 @@ exports.show = function(_viewerId, src, _title, success, error) {
     isCurrentlyViewing = true;
     viewerElement = elem;
 
-    exec(success, error, "CordovaPdfViewer", "show", [src, documentTitle, rect.top+100, rect.left, rect.width, rect.height]);
+    exec(success, error, "CordovaPdfViewer", "show", [src, documentTitle, rect.top+20, rect.left, rect.width, rect.height]);
 };
 
 exports.redim = function(success, error, top, left, width, height) {
